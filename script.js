@@ -8,13 +8,9 @@ function rating () {
 
   if (userInput >= 18) {
     document.getElementById('result').innerHTML = 'You can watch 18A/R rated movies without supervision'
-  }
-  
-  else if (userInput >= 14) {
+  } else if (userInput >= 14) {
     document.getElementById('result').innerHTML = 'You can watch 14A movies without supervision'
-  }
-
-  else {
+  } else {
     document.getElementById('result').innerHTML = 'You can watch PG/G movies. You will need adult supervision'
   }
 }
